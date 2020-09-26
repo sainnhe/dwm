@@ -6,4 +6,6 @@ patches
 util.o
 dwm
 dwm.o
+dwm-msg
+dwm-msg.o
 drw.o
