@@ -2203,6 +2203,7 @@ updatebarpos(Monitor *m)
 	} else
 		m->by = -bh - vp;
 }
+	m->wh -= yoffset;
 
 void
 updateclientlist()
