@@ -2200,10 +2200,11 @@ updatebarpos(Monitor *m)
 		m->wh = m->wh - vertpad - bh;
 		m->by = m->topbar ? m->wy : m->wy + m->wh + vertpad;
 		m->wy = m->topbar ? m->wy + bh + vp : m->wy;
-	} else
+	} else {
 		m->by = -bh - vp;
-}
+	}
 	m->wh -= yoffset;
+}
 
 void
 updateclientlist()
